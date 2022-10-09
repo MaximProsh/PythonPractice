@@ -6,7 +6,7 @@ for x in range(5):
     array.append(rnd)
 print(array)
 
-max = 0
+max = array[0]
 for x in array:
     if x > max:
         max = x
