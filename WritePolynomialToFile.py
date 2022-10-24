@@ -15,7 +15,6 @@ res += f'{lst_k[len(lst_k) - 1]} = 0'
 
 with open('plnml.txt', 'a') as file:
     file.write(res + '\n')
-file.close()
 
 print(lst_k)
 print(res)
